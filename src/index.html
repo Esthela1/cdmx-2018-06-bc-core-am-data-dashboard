@@ -10,31 +10,71 @@
     <title>Data Dashboard</title>
 </head>
 <body>
-        <header>
-                <img src="imagenes/laboratoria logo.png" id="logo" alt="Logo Laboratoria" ​align="right">
-                <img src="imagenes/triangulo.png" id="triangulo" alt="Triangulo"><br>
-                <h2>Data Dashboard</h2><br>
-            </header>           
-            <section id="login">
-                    <p>Ingrese su usuario y contraseña</p><br>
-                    <div class="container-fluid">
-                        <form>
-                            <input class="col-md-3 offset-" type="text" name="userid" placeholder="Usuario">
-                            <input class="col-md-3 offset-1" type="password" name="psw" placeholder="Contraseña"><br>
-                            <button type="button" id="btnLogin">Entrar</button>
-                        </form>
-                    </div>
-                </section>
-                <section id="btnsCampus">
-                    <button type="button" id="btnLima">Lima</button>
-                    <button type="button" id="btnMexico">México</button>
-                    <button type="button" id="btnStgo">Santiago</button>
-                    </section>
-                        
-    <img src="imagenes/Corchetes verdes.png" id="corchetes" alt="corchetes verdes"><br>    
+    <header>
+        <img src="imagenes/laboratoria logo.png" id="logo" alt="Logo Laboratoria" ​align="right">
+        <img src="imagenes/triangulo.png" id="triangulo" alt="Triangulo" ​align=""><br>
+        <h2>Data Dashboard</h2><br>
+    </header>
+
+    <section id="login">
+        <p>Ingrese su usuario y contraseña</p><br>
+        <div class="container-fluid">
+            <form>
+                <input class="col-md-3 offset-" type="text" name="userid" placeholder="Usuario">
+                <input class="col-md-3 offset-1" type="password" name="psw" placeholder="Contraseña"><br>
+                <button type="button" id="btnLogin">Entrar</button>
+            </form>
+        </div>
+    </section>
+    <section id="btnsCampus">
+        <button type="button" id="btnLima">Lima</button>
+        <article id="lima">
+            <button type="button" id="btnLimaThird">Tercera</button>
+            <article id="limaThirdInfo">
+                <div id="limaNamesThird"></div>
+                <div id="limaCompletedPercentageThird"></div>
+                <div id="limaDurationPercentageThird"></div>
+            </article>
+            <button type="button" id="btnLimaFourth">Cuarta</button>
+            <article id=limaFourthInfo>
+                <div id="limaNamesFourth"></div>
+                <div id="limaCompletedPercentageFourth"></div>
+                <div id="limaDurationPercentageFourth"></div>
+            </article>
+            <button type="button" id="btnLimaFifth">Quinta</button>
+            <article id=limaFifthInfo>
+                <div id="limaNamesFifth"></div>
+                <div id="limaCompletedPercentageFifth"></div>
+                <div id="limaDurationPercentageFifth"></div>
+            </article>
+        </article>
+        <button type="button" id="btnMexico">México</button>
+        <article id="mexico">
+            <button type="button" id="btnMexicoThird">Tercera</button>
+            <article id="mexicoThirdInfo">
+                <div id="mexicoNamesThird"></div>
+                <div id="mexicoCompletedPercentageThird"></div>
+                <div id="mexicoDurationPercentageThird"></div>
+            </article>
+            <button type="button" id="btnMexicoFourth">Cuarta</button>
+            <article id=mexicoFourthInfo>
+                <div id="mexicoNamesFourth"></div>
+                <div id="mexicoCompletedPercentageFourth"></div>
+                <div id="mexicoDurationPercentageFourth"></div>
+            </article>
+            <button type="button" id="btnMexicoFifth">Quinta</button>
+            <article id=mexicoFifthInfo>
+                <div id="mexicoNamesFifth"></div>
+                <div id="mexicoCompletedPercentageFifth"></div>
+                <div id="mexicoDurationPercentageFifth"></div>
+            </article>
+        </article>
+        <button type="button" id="btnStgo">Santiago</button>
+    </section>
+    <div class="line"></div>
+    <footer><img src="imagenes/Corchetes verdes.png" id="corchetes" alt="corchetes verdes"></footer>
     <script src="newdata.js"></script>
     <script src="newmain.js"></script>
-
 </body>
 
 </html>
