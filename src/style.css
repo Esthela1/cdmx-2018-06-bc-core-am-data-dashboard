@@ -1,39 +1,49 @@
-
     body {
         margin: 0%;
         padding: 0%;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         font-family: 'Open Sans', sans-serif;
         letter-spacing: 6px;
-        font-size: 4vw;
+        font-size: 9vmin;
     }
     
     h2 {
         position: relative;
         font-family: 'Bitter', serif;
         letter-spacing: 6px;
-        font-size: 4vw;
+        font-size: 5vmin;
         color: white;
         text-align: center;
         background-color: rgba(255, 229, 33);
-        margin: 0%
+        margin: 0%;
+        width: 3.5;
+        
+    }
+
+    #upcorch {
+        position: relative;
+        left: 34%;
+        margin-left: auto;
+        margin-right:initial;
+        width: 15%;
+
     }
     
     #logo {
         position: relative;
-        left: 25%;
+        left: 28%;
         margin: auto;
-        width: 50vw;
+        width: 45vw;
         padding: 0%;
         margin: 0%;
     }
     
     #triangulo {
         margin-right: auto;
-        width: 8%;
+        width: 8vmin;
         position: relative;
-        left: 40%;
+        left: 52%;
         padding: 0%;
         margin: 0%;
     }
@@ -47,15 +57,16 @@
     #corchetes {
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 25%;
     }
     
-    p {
+    h6 {
         font-family: 'Open Sans';
         letter-spacing: 0.3px;
         color: #8190A5;
         text-align: center;
-        font-size: 2vw;
+        font-size: 50%;
+        margin: 0%;
     }
     
     input {
@@ -65,42 +76,43 @@
         left: 20%;
         font-family: 'Open Sans';
         align-items: center;
-        color: #8190A5;
+        color: rgb(7, 7, 7);
         border-radius: 4px;
         cursor: pointer;
-        font-size: 2.5vw;
+        font-size: 5vmin;
     }
     
     #btnLogin {
-        width: 20vw;
-        height: 5vw;
+        margin: 0%;
+        width: 25vw;
+        height: 6vw;
         position: relative;
-        left: 41%;
+        left: 38%;
         font-family: 'Open Sans';
         text-align: center;
         background-color: rgba(86, 245, 154);
         color: white;
         border-radius: 4px;
-        font-size: 2.5vw;
+        font-size: 5vmin;
+        margin-bottom: 5%
     }
  
-    
     #limaFourthNames p {
         font-size: 0.5vw;
         float: left;
     }
     
     button {
-        left: 50%;
-        width: 15vw;
+        
+        width: 20vmin;
         height: 5vw;
-        margin: 40px;
+        margin: 100px;
         font-family: 'Open Sans';
         text-align: center;
         color: white;
         background-color: rgba(86, 245, 154);
         border-radius: 3px;
-        font-size: 2vw;
+        font-size: 3vmin;
     }
     
     .lima-third-name {
@@ -135,3 +147,16 @@
     .w3-container {
         box-sizing: inherit;
     }
+
+    p {
+        position: relative;
+        font-family: 'Bitter', serif;
+        letter-spacing: 6px;
+        font-size: 6vmin;
+        text-align: center;
+        background-color: rgba(255, 229, 33);
+        margin: 0%;
+        width: 3.5;
+        border: 7px;
+    }
+    
