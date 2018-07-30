@@ -85,16 +85,16 @@
     #btnLogin {
         margin: 0%;
         width: 25vw;
-        height: 6vw;
+        height: 7vw;
         position: relative;
-        left: 38%;
+        left: 34%;
         font-family: 'Open Sans';
         text-align: center;
         background-color: rgba(86, 245, 154);
         color: white;
         border-radius: 4px;
         font-size: 5vmin;
-        margin-bottom: 5%
+        margin: 5%;
     }
  
     #limaFourthNames p {
@@ -106,7 +106,7 @@
         
         width: 20vmin;
         height: 5vw;
-        margin: 100px;
+        margin: 39px;
         font-family: 'Open Sans';
         text-align: center;
         color: white;
